@@ -58,7 +58,11 @@ p {
 .get-quote-inner{padding:60px 270px 60px 60px}
 .get-quote-inner h2{color:#4796bf;font-size:30px;line-height:32px;margin-bottom:30px;text-transform:uppercase}
 .get-quote-inner p{font-size:20px;line-height:27px;color:#1f1f1e}
-.gold-button{background:#d5982e none repeat scroll 0 0;color:#fff;display:inline-block;font-size:17px;margin-top:30px;padding:8px 30px;text-decoration:none}
+.gold-button{background:#d5982e none repeat scroll 0 0;color:#fff;display:inline-block;font-size:17px;margin-top:30px;padding:8px 30px;text-decoration:none;transition: all 0.3s ease 0s;}
+.gold-button:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) inset;
+  transition: all 0.3s ease 0s;
+}
 .our-process{background:rgba(0,0,0,0) url(images/process-bg.png) no-repeat scroll 0 0 / cover;padding:50px 20px}
 .panel-container{margin:0 auto;max-width:700px}
 .our-process .textbox{color:#fff;float:left;font-size:17px;line-height:1.3em;padding-right:20px;width:60%}
@@ -515,6 +519,28 @@ ul.our-process-accordion h4 {
 }
 
 /* Projects page */
+.show-main-navigation {display: none}
+body.page-template-page-projects .show-main-navigation {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+}
+body.page-template-page-projects .main-navigation-wrap {
+	display: none;
+}
+.icon-hamburger {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0.25em 0 0 #fff, 0 0.5em 0 0 #fff;
+  display: block;
+  height: 0.15em;
+  left: 17px;
+  position: absolute;
+  top: 11px;
+  width: 1em;
+}
 .reg-projects-wrap {
   width: 100%;
 }
@@ -524,6 +550,7 @@ ul.our-process-accordion h4 {
   width: 31.3333%;
 }
 .project-box p {
+  font-size: 15px;
   line-height: 1.3em;
 }
 .project-box:nth-child(2n+1) {padding-right: 0;}
@@ -579,6 +606,7 @@ ul.our-process-accordion h4 {
 .project-image {float: right;}
 .project-image img {
   height: auto;
+  margin-bottom: 20px;
   width: 100%;
 }
 .cycle-slideshow img {
@@ -607,6 +635,28 @@ ul.our-process-accordion h4 {
 }
 .project-statistics h3 {margin-bottom: 5px;}
 .project-statistics p {margin-bottom: 10px;}
+
+/* slideshow pager styles */
+.cycle-pager {
+  bottom: 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1000;
+}
+.cycle-pager span {
+  background: #fff none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 0;
+  height: 10px;
+  margin: 0 3px;
+  width: 10px;
+}
+.cycle-pager span.cycle-pager-active {
+  background: #4796bf none repeat scroll 0 0;
+}
+
+
 /* footer styles */
 #footer {
   background: #2c3d4c none repeat scroll 0 0;

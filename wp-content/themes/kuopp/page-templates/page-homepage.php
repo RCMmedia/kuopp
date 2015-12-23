@@ -7,13 +7,13 @@ get_header(); ?>
 
 
 	<div class="hero-banner">
-		<?php the_field('homepage_main_banner'); ?>
+		<img src="<?php the_field('homepage_main_banner'); ?>">
 	</div><!-- .hero-banner -->
 	<div class="get-quote">
 		<img class="bg" src="<?php bloginfo('template_url') ?>/images/get-quote-bg2.png" alt="get-quote-bg" width="305" height="428" />
 		<div class="get-quote-inner">
-			<h2>We help your dream <strong>become your reality</strong></h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad</p>
+			<h2><?php the_field('homepage_intro_h2'); ?></h2>
+			<p><?php the_field('homepage_intro_paragraph'); ?></p>
 			<a class="portfolio-link" href="">Residential<img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
 			<a class="portfolio-link" href="">Commercial <img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
 			<a class="gold-button" href="">Get a Quote</a>
@@ -53,6 +53,8 @@ get_header(); ?>
 		 	</ul>
 		 	
 		 	<div class="panel-container clearfix">
+			 	
+			 	
 		  	<div id="step1">
 			  	<div class="clearfix">
 				  	<div class="textbox">
@@ -190,61 +192,31 @@ get_header(); ?>
 		});
 		
 		//animate numbers
-/*
-		setTimeout(function(){
-		  $(".odometer1").animateNumber({ number: 165 },
-		  "slow",
-		  function() {
-		    $("#odometer-text1").css("opacity","1")
-		  }).css("opacity","1");
-		}, 100);
-*/
-		
-/*
-		setTimeout(function(){
-		  $(".odometer2").animateNumber({ number: 265 },
-		  "slow",
-		  function() {
-		    $("#odometer-text2").css("opacity","1")
-		  }).css("opacity","1");
-		}, 1000);
-*/
-		
-		
-
-		
-
-  $('#options-only').waypoint(function(event, direction) {
-    $(".odometer1").animateNumber({ number: 165 },
-		  "slow",
-		  function() {
-		    $("#odometer-text1").css("opacity","1")
-		  }).css("opacity","1");
-		setTimeout(function(){
-		  $(".odometer2").animateNumber({ number: 265 },
-		  "slow",
-		  function() {
-		    $("#odometer-text2").css("opacity","1")
-		  }).css("opacity","1");
-		}, 1000);
-		setTimeout(function(){
-		  $(".odometer3").animateNumber({ number: 365 },
-		  "slow",
-		  function() {
-		    $("#odometer-text3").css("opacity","1")
-		  }).css("opacity","1");
-		}, 2000);
-		
-		this.destroy()
-		
-  }, {offset: '90%'});// try bottom-in-view instead of 90%
-
-
-
-
-
-
-  
+  	$('#options-only').waypoint(function(event, direction) {
+  	  $(".odometer1").animateNumber({ number: 165 },
+			  "slow",
+			  function() {
+			    $("#odometer-text1").css("opacity","1")
+			  }).css("opacity","1");
+			setTimeout(function(){
+			  $(".odometer2").animateNumber({ number: 265 },
+			  "slow",
+			  function() {
+			    $("#odometer-text2").css("opacity","1")
+			  }).css("opacity","1");
+			}, 1000);
+			setTimeout(function(){
+			  $(".odometer3").animateNumber({ number: 365 },
+			  "slow",
+			  function() {
+			    $("#odometer-text3").css("opacity","1")
+			  }).css("opacity","1");
+			}, 2000);
+			
+			this.destroy()
+			
+  	}, {offset: '90%'});// try bottom-in-view instead of 90%
+  	
 	});
 </script>
 <?php get_footer(); ?>

@@ -20,6 +20,7 @@ get_header(); ?>
 						<img src="<?php echo $image_main_slider[0]; ?>" />
 					</div>
 					<?php endwhile; ?>
+					 <div class="cycle-pager"></div>
 				<?php endif; ?>
 			</div>
 		<?php endif; //end acf conditional featured_at_top ?> 
