@@ -520,7 +520,7 @@ ul.our-process-accordion h4 {
 
 /* Projects page */
 .show-main-navigation {display: none}
-body.page-template-page-projects .show-main-navigation {
+body.page-template-page-projects .show-main-navigation, body.single-project .show-main-navigation {
   cursor: pointer;
   display: block;
   margin-bottom: 20px;
@@ -528,7 +528,7 @@ body.page-template-page-projects .show-main-navigation {
   position: relative;
   text-align: center;
 }
-body.page-template-page-projects .main-navigation-wrap {
+body.page-template-page-projects .main-navigation-wrap, body.single-project .main-navigation-wrap {
 	display: none;
 }
 .icon-hamburger {

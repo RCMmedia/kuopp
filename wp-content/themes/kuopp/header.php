@@ -72,7 +72,9 @@
 		</div><!-- .main-navigation-wrap -->
 		
 		<?php if ( is_singular('project') || is_page_template('page-templates/page-projects.php') ) { ?>
-
+			
+			<h3>Search:</h3>
+			
 			G$ will add in the menu here
 			
 		<?php } ?>	
