@@ -692,7 +692,10 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   padding: 12px;
 }
 #footer a {color: #fff}
-
+.addthis_sharing_toolbox {
+  margin-top: 20px;
+  text-align: center;
+}
 /* mobile styles */
 
 @media screen and (max-width: 600px) {

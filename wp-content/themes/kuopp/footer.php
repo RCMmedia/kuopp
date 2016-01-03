@@ -90,6 +90,9 @@
   ga('send', 'pageview');
 
 </script>
+
+
 <?php wp_footer(); ?>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568818ef291a3b6b" async="async"></script>
 </body>
 </html>

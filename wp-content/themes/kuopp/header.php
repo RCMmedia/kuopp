@@ -54,53 +54,53 @@
 	<div class="green-trim"></div>
 	<div class="sidebar">
 		<div id="mobile-menu-icon">
-			  <span></span>
-			  <span></span>
-			  <span></span>
-			</div>
-			<div class="logo">
-				<a href="<?php bloginfo('url') ?>"><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="logo" width="167" height="64"></a>
-			</div><!-- .logo -->
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+		<div class="logo">
+			<a href="<?php bloginfo('url') ?>"><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="logo" width="167" height="64"></a>
+		</div><!-- .logo -->
 			
 			
-			<span class="show-main-navigation gold-button">Main Menu <span class="icon-hamburger"></span></span>	
+		<span class="show-main-navigation gold-button">Main Menu <span class="icon-hamburger"></span></span>	
 
 			<div class="main-navigation-wrap">
 				
-				<div class="navigation">
-					<ul>
-						<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-getaquote.png" alt="nav-icon-getaquote" width="20" height="24"><a href="<?php bloginfo('url') ?>/quote/">Get a Quote</a><span></span></li>
-						<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-aboutus.png" alt="nav-icon-aboutus" width="20" height="24"><a href="<?php bloginfo('url') ?>/about-us">About Us</a><span></span></li>
-						<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-projects.png" alt="nav-icon-projects" width="20" height="24"><a href="<?php bloginfo('url') ?>/projects/">Projects</a><span></span></li>
-						<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-location.png" alt="nav-icon-location" width="20" height="24"><a href="<?php bloginfo('url') ?>/locations">Locations</a><span></span></li>
-						<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-reviews.png" alt="nav-icon-reviews" width="20" height="24"><a href="<?php bloginfo('url') ?>/reviews">Leave a review</a><span></span></li>
-					</ul>
-				</div><!-- .navigation -->
-				<div class="social-icons">
-					<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-fb.png" alt="social-icon-fb"></a>
-					<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-houzz.png" alt="social-icon-fb"></a>
-					<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-dunno.png" alt="social-icon-fb"></a>
-					<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-linkedin.png" alt="social-icon-fb"></a>
-					<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-gplus.png" alt="social-icon-fb"></a>
-				</div><!-- .social-icons -->
-			</div><!-- .main-navigation-wrap -->
+			<div class="navigation">
+				<ul>
+					<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-getaquote.png" alt="nav-icon-getaquote" width="20" height="24"><a href="<?php bloginfo('url') ?>/quote/">Get a Quote</a><span></span></li>
+					<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-aboutus.png" alt="nav-icon-aboutus" width="20" height="24"><a href="<?php bloginfo('url') ?>/about-us">About Us</a><span></span></li>
+					<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-projects.png" alt="nav-icon-projects" width="20" height="24"><a href="<?php bloginfo('url') ?>/projects/">Projects</a><span></span></li>
+					<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-location.png" alt="nav-icon-location" width="20" height="24"><a href="<?php bloginfo('url') ?>/locations">Locations</a><span></span></li>
+					<li><img src="<?php bloginfo('template_url') ?>/images/nav-icon-reviews.png" alt="nav-icon-reviews" width="20" height="24"><a href="<?php bloginfo('url') ?>/reviews">Leave a review</a><span></span></li>
+				</ul>
+			</div><!-- .navigation -->
+			<div class="social-icons">
+				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-fb.png" alt="social-icon-fb"></a>
+				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-houzz.png" alt="social-icon-fb"></a>
+				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-dunno.png" alt="social-icon-fb"></a>
+				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-linkedin.png" alt="social-icon-fb"></a>
+				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-gplus.png" alt="social-icon-fb"></a>
+			</div><!-- .social-icons -->
+		</div><!-- .main-navigation-wrap -->
+		
+		<?php if ( is_singular('project') || is_page_template('page-templates/page-projects.php') ) { ?>
 			
-			<?php if ( is_singular('project') || is_page_template('page-templates/page-projects.php') ) { ?>
-				
-				<h3>Search:</h3>
-				
-				G$ will add in the menu here
-				
-			<?php } ?>	
-			<script>
-				jQuery(".show-main-navigation").click(function(){
-					jQuery(".main-navigation-wrap").slideToggle();
-				});
-				$('#mobile-menu-icon').click(function(){
-					$(this).toggleClass('open');
-					$(".sidebar").toggleClass("mobile-loaded")
-				});
-			</script>	
+			<h3>Search:</h3>
+			
+			G$ will add in the menu here
+			
+		<?php } ?>	
+		<script>
+			jQuery(".show-main-navigation").click(function(){
+				jQuery(".main-navigation-wrap").slideToggle();
+			});
+			$('#mobile-menu-icon').click(function(){
+				$(this).toggleClass('open');
+				$(".sidebar").toggleClass("mobile-loaded")
+			});
+		</script>	
 		
 	</div><!-- .sidebar -->
 	<div class="main-content-wrap">

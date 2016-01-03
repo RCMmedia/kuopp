@@ -41,7 +41,8 @@ get_header(); ?>
 							<?php the_field('project_statistics'); ?>
 						</div>
 						<div class="links-wrap">
-						  <a class="gold-button" href="">Share This Project</a>
+							<div class="addthis_sharing_toolbox"></div>
+							<!-- <a class="gold-button" href="">Share This Project</a> -->
 						  <a class="gold-button" href="">Get a Quote</a>
 						  <a class="gold-button" href="">Leave a Review</a>
 						</div><!-- .links-wrap -->
@@ -70,7 +71,8 @@ get_header(); ?>
 				</div>
 				<?php the_content(); ?>
 				<div class="links-wrap">
-				  <a class="gold-button" href="">Share This Project</a>
+					<div class="addthis_sharing_toolbox"></div>
+					<!-- <a class="gold-button" href="">Share This Project</a> -->
 				  <a class="gold-button" href="">Get a Quote</a>
 				  <a class="gold-button" href="">Leave a Review</a>
 				</div>
