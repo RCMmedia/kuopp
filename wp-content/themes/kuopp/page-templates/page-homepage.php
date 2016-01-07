@@ -58,13 +58,10 @@ get_header(); ?>
 		  	<div id="step1">
 			  	<div class="clearfix">
 				  	<div class="textbox">
-						  <h3 class="step-title">Phase 1: We Talk</h3>
-						  <p>By now, we will have settled on a final design and will begin preparing drawings, notes, and technical specifications necessary for bidding, construction, and permit application. This is the phase that many people think of when they picture the work of an architect – the creation of blueprints.</p>
-							<p>Contractors will use these detailed drawings and specifications to prepare for the next phase in the architectural design process.</p>
+						  <h3 class="step-title">Phase 1: Schematic Design</h3>
+						  <p>During this phase of the architectural design process, we will take the information we’ve gathered from you and through our field surveys to create two to three design options for your consideration. We will generally present these options in the form of sketches, so you can visualize the different routes your project could take.</p>
+						  <p>We will also attach a rough cost estimate to each option to aid you in selecting a design that meets both your aesthetic preferences and budget requirements. You will also have the opportunity to request any modifications you’d like us to make to your preferred design. Once you have selected a design option that best suits your needs, we will begin the process of refining the design during the Design Development phase.</p>
 				  	</div><!-- .textbox -->
-				  	<div class="imagebox">
-						  <img src="http://placehold.it/300x300"/>
-				  	</div><!-- .imagebox -->
 			  	</div>
 				  <div class="next-back-wrap">
 				  	<a rel="1" class="next-tab btn success first" href="#"><img src="<?php bloginfo('template_url') ?>/images/arrow-next.png"/></a>				  	
@@ -74,13 +71,10 @@ get_header(); ?>
 		  	<div id="step2">
 			  	<div class="clearfix">
 				  	<div class="textbox">
-						  <h3 class="step-title">Phase 2: You Listen</h3>
-						  <p>By now, we will have settled on a final design and will begin preparing drawings, notes, and technical specifications necessary for bidding, construction, and permit application. This is the phase that many people think of when they picture the work of an architect – the creation of blueprints.</p>
-							<p>Contractors will use these detailed drawings and specifications to prepare for the next phase in the architectural design process.</p>
+						  <h3 class="step-title">Phase 2: Design Development</h3>
+						  <p>At this point, we will take the schematic design you selected, as well as any requested modifications, and revise the design as necessary. We will also update the cost estimate we provided during the Schematic Design phase to reflect any changes we’ve made to the initial design. We take our clients’ budgets very seriously and continually strive to provide accurate estimates throughout the early stages of design.
+This phase may require additional give and take as we work with you to finalize the details of the design before moving into the next phase.</p>
 				  	</div><!-- .textbox -->
-				  	<div class="imagebox">
-						  <img src="http://placehold.it/300x300"/>
-				  	</div><!-- .imagebox -->
 			  	</div>
 				  <div class="next-back-wrap">
 					  <a rel="0" class="prev-tab btn success" href="#"><img src="<?php bloginfo('template_url') ?>/images/arrow-back.png"/></a>
@@ -91,13 +85,10 @@ get_header(); ?>
 		  	<div id="step3">
 		  		<div class="clearfix">
 				  	<div class="textbox">
-						  <h3 class="step-title">Phase 3: Pay Up</h3>
+						  <h3 class="step-title">Phase 3: Construction Documents</h3>
 						  <p>By now, we will have settled on a final design and will begin preparing drawings, notes, and technical specifications necessary for bidding, construction, and permit application. This is the phase that many people think of when they picture the work of an architect – the creation of blueprints.</p>
 							<p>Contractors will use these detailed drawings and specifications to prepare for the next phase in the architectural design process.</p>
 				  	</div><!-- .textbox -->
-				  	<div class="imagebox">
-						  <img src="http://placehold.it/300x300"/>
-				  	</div><!-- .imagebox -->
 		  		</div>
 				  <div class="next-back-wrap">
 				  	<a rel="1" class="prev-tab btn success" href="#"><img src="<?php bloginfo('template_url') ?>/images/arrow-back.png"/></a>
@@ -108,13 +99,10 @@ get_header(); ?>
 		  	<div id="step4">
 			  	<div class="clearfix">
 				  	<div class="textbox">
-						  <h3 class="step-title">Phase 4: Construction Documents</h3>
-						  <p>By now, we will have settled on a final design and will begin preparing drawings, notes, and technical specifications necessary for bidding, construction, and permit application. This is the phase that many people think of when they picture the work of an architect – the creation of blueprints.</p>
-							<p>Contractors will use these detailed drawings and specifications to prepare for the next phase in the architectural design process.</p>
+						  <h3 class="step-title">Phase 4: Bidding</h3>
+						  <p>Having an architect on your side during the bidding phase of home construction is of great advantage to you. At minimum, we can aid you in developing a list of qualified contractors for your bid list and submitting bid packages to bidders. But we can also review submitted bids, provide analysis, and help you compare the cost figures that you receive from your bidders.</p>
+							<p>This phase will ensure the contractors you are considering for your construction project are reading the blueprints correctly and are providing an accurate bid for your project.</p>
 				  	</div><!-- .textbox -->
-				  	<div class="imagebox">
-						  <img src="http://placehold.it/300x300"/>
-				  	</div><!-- .imagebox -->
 			  	</div>
 				  <div class="next-back-wrap">
 				  	<a rel="2" class="prev-tab btn success" href="#"><img src="<?php bloginfo('template_url') ?>/images/arrow-back.png"/></a>
@@ -125,13 +113,10 @@ get_header(); ?>
 		  	<div id="step5">
 			  	<div class="clearfix">
 				  	<div class="textbox">
-						  <h3 class="step-title">Phase 5: Construction Documents</h3>
-						  <p>By now, we will have settled on a final design and will begin preparing drawings, notes, and technical specifications necessary for bidding, construction, and permit application. This is the phase that many people think of when they picture the work of an architect – the creation of blueprints.</p>
-							<p>Contractors will use these detailed drawings and specifications to prepare for the next phase in the architectural design process.</p>
+						  <h3 class="step-title">Phase 5: Construction Administration</h3>
+						  <p>Finally, once you have selected a contractor and construction is under way, we move into the fifth phase of the architectural design process – construction administration. During this phase, we will administer the construction process to assure conformance with design intent, visit the site during construction, and address any field conditions as they arise.</p>
+							<p>This final phase, along with all the others described above, will ensure the smooth and satisfactory completion of your home construction or renovation project. Our ultimate goal as architects is to help you turn your dream of a new or renovated home into an affordable reality. Contact us and take the first step toward your new home.</p>
 				  	</div><!-- .textbox -->
-				  	<div class="imagebox">
-						  <img src="http://placehold.it/300x300"/>
-				  	</div><!-- .imagebox -->
 			  	</div>
 				  <div class="next-back-wrap">
 				 		<a rel="3" class="prev-tab btn success" href="#"><img src="<?php bloginfo('template_url') ?>/images/arrow-back.png"/></a>

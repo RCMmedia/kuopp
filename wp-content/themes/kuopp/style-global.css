@@ -91,7 +91,7 @@ p {
 }
 .our-process{background:rgba(0,0,0,0) url(images/process-bg.png) no-repeat scroll 0 0 / cover;padding:50px 20px}
 .panel-container{margin:0 auto;max-width:700px}
-.our-process .textbox{color:#fff;float:left;font-size:17px;line-height:1.3em;padding-right:20px;width:60%}
+.our-process .textbox{color:#fff;float:left;font-size:17px;line-height:1.3em;padding-right:20px;width:100%}
 h3.step-title{margin-bottom:20px;text-transform:uppercase}
 .our-process .textbox p{margin-bottom:15px}
 .our-process .imagebox{float:left;width:40%}

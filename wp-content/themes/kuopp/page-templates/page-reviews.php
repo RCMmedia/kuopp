@@ -34,13 +34,13 @@ get_header(); ?>
 						</div><!-- .stars_wrap -->
 						
 						<div class="review-form" style="display: none">
-							<p>I'm sorry to hear that you did not have a pleasant dining experience at Rubicon Deli. Our goal is to provide you with the finest customer service and leave you with a memorable experience. We would love to hear your feedback, and we will do everything that we can to resolve any issues. We value your comments and&nbsp;feedback.<br>
-- Rubicon Deli Management </p>
+							<p>You're not supposed to be here. Lets talk about it. Fill out the form below and we will contact shortly.<br>
+- Kuoppamaki Designs Management </p>
 							<?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax="true"]'); //review contact form ?>
 						</div>
 						
 						<div class="review-sites" style="display: none">
-							<p class="cta">Please pick your review site of choice and take a quick moment to write us a review. Tell us about your experience or about your favorite roll, drink, or waiter/waitress! We appreciate and value and&nbsp;feedback.</p>
+							<p class="cta">We value your opinion. Please pick your review site of choice and take a quick moment to write us a review. Tell us about your experience!</p>
 							<?php
 								if ( get_field('location_facebook_link')){
 									 	echo ('<a href="'.get_field('location_facebook_link').'" class="social-icon facebook"></a>'); 
