@@ -24,7 +24,6 @@ get_header(); ?>
 			</div><!-- .left -->
 			<div class="right">
 				<?php the_field('aboutus_content_right'); ?>
-				<span class="end-article"></span>
 			</div><!-- .right -->
 		</div><!-- .content -->
 			

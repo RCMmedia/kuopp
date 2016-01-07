@@ -159,8 +159,11 @@
 			
 			<h3>Search:</h3>
 			
-			G$ will add in the menu here
-			
+			<?php $my_search = new WP_Advanced_Search('my-form');
+				$my_search->the_form();
+				
+				 ?>
+			<div id="wpas-results"></div>
 		<?php } ?>	
 		<script>
 			jQuery(".show-main-navigation").click(function(){

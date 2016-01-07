@@ -14,8 +14,8 @@ get_header(); ?>
 		<div class="get-quote-inner">
 			<h2><?php the_field('homepage_intro_h2'); ?></h2>
 			<?php the_field('homepage_intro_paragraph'); ?>
-			<a class="portfolio-link" href="">Residential<img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
-			<a class="portfolio-link" href="">Commercial <img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
+			<a class="portfolio-link" href="<?php bloginfo('url') ?>/projects/">View some of our projects<img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
+<!-- 			<a class="portfolio-link" href="">Commercial <img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a> -->
 			<a class="gold-button" href="">Get a Quote</a>
 			<a class="gold-button" href="">About Us</a>
 		</div>
