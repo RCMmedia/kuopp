@@ -13,7 +13,7 @@ get_header(); ?>
 		<img class="bg" src="<?php bloginfo('template_url') ?>/images/get-quote-bg2.png" alt="get-quote-bg" width="305" height="428" />
 		<div class="get-quote-inner">
 			<h2><?php the_field('homepage_intro_h2'); ?></h2>
-			<p><?php the_field('homepage_intro_paragraph'); ?></p>
+			<?php the_field('homepage_intro_paragraph'); ?>
 			<a class="portfolio-link" href="">Residential<img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
 			<a class="portfolio-link" href="">Commercial <img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
 			<a class="gold-button" href="">Get a Quote</a>
