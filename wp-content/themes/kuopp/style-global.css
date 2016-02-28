@@ -658,6 +658,15 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
 }
 .wpas-tax_projecttype-radio-container {margin-bottom: 10px}
 .wpas-search_query {margin-bottom: 20px}
+
+.pagenav a {
+  border: 3px solid #b4b212;
+  color: #b4b212;
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
 /* Single Projects */
 
 .project-image {float: right;}
