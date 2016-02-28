@@ -12,16 +12,15 @@ get_header(); ?>
 		
 		<div class="location-box">
 			<div class="map-image">
-				<img src="http://maps.google.com/maps/api/staticmap?center=37.387800,-122.073153&zoom=12&size=200x120&sensor=true">
+				<a href="https://www.google.com/maps/place/3962+Mt+Acadia+Blvd,+San+Diego,+CA+92111/@32.8132155,-117.1841667,17z/data=!3m1!4b1!4m2!3m1!1s0x80dc000cdc29b3b3:0x9dfe5f1b27de7738" target="_blank"><img src="http://maps.google.com/maps/api/staticmap?center=32.813211,-117.181978&zoom=13&markers=32.813211,-117.181978|32.813211,-117.181978&size=200x120&sensor=true"></a>
 			</div>
 			<div class="location-name">
 				San Diego
 			</div>
 			<div class="location-info">
-				<span class="address">123 Some Street<br>
-				San Diego, CA 92109</span><br>			
-				<span class="telephone"><a href="tel:555.555.5555">555.555.5555</a></span><br>				
-				<span class="emailaddress"><a href="mailto:info@domain.com">info@domain.com</a></span>
+				<span class="address">3962 Mt Acadia Blvd<br>
+				San Diego 92111<br></span>			
+				<span class="emailaddress"><a href="mailto:davidk@kuopdesigns.com">davidk@kuopdesigns.com</a></span>
 			</div><!-- .location-info -->
 			<div class="leave-review">
 				<a class="gold-button" href="">Leave a Review</a>
@@ -30,16 +29,15 @@ get_header(); ?>
 		
 		<div class="location-box">
 			<div class="map-image">
-				<img src="http://maps.google.com/maps/api/staticmap?center=37.387800,-122.073153&zoom=12&size=200x120&sensor=true">
+				<a href="https://www.google.com/maps/place/1730+Peregrino+Way,+San+Jose,+CA+95125/@37.2885373,-121.9145554,17z/data=!3m1!4b1!4m2!3m1!1s0x808e349a10119983:0xc9f4d826b4cb94f2" target="_blank"><img src="http://maps.google.com/maps/api/staticmap?center=37.288533,-121.912367&zoom=13&markers=32.813211,-117.181978|32.813211,-117.181978|37.288533,-121.912367&size=200x120&sensor=true"></a>
 			</div>
 			<div class="location-name">
-				San Diego
+				San Jose
 			</div>
 			<div class="location-info">
-				<span class="address">123 Some Street<br>
-				San Diego, CA 92109</span><br>			
-				<span class="telephone"><a href="tel:555.555.5555">555.555.5555</a></span><br>				
-				<span class="emailaddress"><a href="mailto:info@domain.com">info@domain.com</a></span>
+				<span class="address">1730 Peregrino Way<br>
+				San Jose 95125</span><br>			
+				<span class="emailaddress"><a href="mailto:davidk@kuopdesigns.com">davidk@kuopdesigns.com</a></span>
 			</div><!-- .location-info -->
 			<div class="leave-review">
 				<a class="gold-button" href="">Leave a Review</a>

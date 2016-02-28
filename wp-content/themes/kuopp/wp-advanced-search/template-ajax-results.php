@@ -24,3 +24,4 @@ results appear when using AJAX.
 <?php endif; ?>
 
 <?php wp_reset_query(); ?>
+

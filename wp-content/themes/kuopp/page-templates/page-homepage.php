@@ -129,16 +129,16 @@ This phase may require additional give and take as we work with you to finalize 
 	
 	<div id="options-only" class="big_numbers">
 		<div class="box_third">
-			<div class="odometer1"></div>
-			<span id="odometer-text1">completed projects</span>
+			<div class="odometer1"> +</div>
+			<span id="odometer-text1">completed projects<br> in past 2 years</span>
 		</div><!-- .box_third -->
 		<div class="box_third">
-			<div class="odometer2"></div>
-			<span id="odometer-text2">another stat</span>
+			<div class="odometer2"> +</div>
+			<span id="odometer-text2">years of building design and<br> construction experience</span>
 		</div><!-- .box_third -->
 		<div class="box_third">
 			<div class="odometer3"></div>
-			<span id="odometer-text3">another stat</span>
+			<span id="odometer-text3">founded in 1990</span>
 		</div><!-- .box_third -->
 	</div><!-- .big_numbers -->
 	
@@ -178,20 +178,20 @@ This phase may require additional give and take as we work with you to finalize 
 		
 		//animate numbers
   	$('#options-only').waypoint(function(event, direction) {
-  	  $(".odometer1").animateNumber({ number: 165 },
+  	  $(".odometer1").animateNumber({ number: 100 },
 			  "slow",
 			  function() {
 			    $("#odometer-text1").css("opacity","1")
 			  }).css("opacity","1");
 			setTimeout(function(){
-			  $(".odometer2").animateNumber({ number: 265 },
+			  $(".odometer2").animateNumber({ number:  30 },
 			  "slow",
 			  function() {
 			    $("#odometer-text2").css("opacity","1")
 			  }).css("opacity","1");
 			}, 1000);
 			setTimeout(function(){
-			  $(".odometer3").animateNumber({ number: 365 },
+			  $(".odometer3").animateNumber({ number: 1990 },
 			  "slow",
 			  function() {
 			    $("#odometer-text3").css("opacity","1")

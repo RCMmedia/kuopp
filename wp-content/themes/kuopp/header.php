@@ -160,10 +160,10 @@
 			<h3>Search:</h3>
 			
 			<?php $my_search = new WP_Advanced_Search('my-form');
-				$my_search->the_form();
+					$my_search->the_form();
 				
 				 ?>
-			<div id="wpas-results"></div>
+			
 		<?php } ?>	
 		<script>
 			jQuery(".show-main-navigation").click(function(){

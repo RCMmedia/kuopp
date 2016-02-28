@@ -5,29 +5,22 @@
 
 get_header(); ?>
 
+	<div id="wpas-results" class="clearfix">
+		
+		
+	</div>
+
 	<h1 class="page-title"><?php the_title(); ?></h1>
 	
 		
 		<div class="featured-project-wrap">
 			
-			<?php 
-
-// args
-$args = array(
-	'numberposts'	=> -1,
-	'post_type'		=> 'project',
-	'meta_key'		=> 'featured_at_top',
-	'meta_value'	=> 'yes'
-);
 
 
-// query
-$the_query = new WP_Query( $args );
 
-?>
-<?php if( $the_query->have_posts() ): ?>
-	<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<div class="project-box">
+					<?php $featured_projects_query = new WP_Query( array( 'post_type' => 'project', 'order' => 'DSC','posts_per_page' => 2  ) ); while($featured_projects_query->have_posts()) : $featured_projects_query->the_post(); ?>
+
+					<div class="project-box">
 				<div class="featured-image">
 					<?php 
 						$image = get_field('featured_image');
@@ -45,8 +38,9 @@ $the_query = new WP_Query( $args );
 					</div><!-- .project-title -->
 				</div><!-- .featured-image -->
   		</div><!-- .project-box -->
-	<?php endwhile; ?>
-<?php endif; ?>
+					<?php endwhile; ?>
+					<?php wp_reset_postdata(); // reset the query ?>
+
 
 
 		</div><!-- .featured-project-wrap -->

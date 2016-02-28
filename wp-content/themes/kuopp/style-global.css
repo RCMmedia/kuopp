@@ -596,7 +596,9 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   height: auto;
   margin-bottom: 1px;
   width: 100%;
+  
 }
+
 .featured-project-wrap {
   border-left: 1px solid #ffffff;
 }
@@ -610,10 +612,17 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
 .featured-image > img {
   height: auto;
   width: 100%;
+  opacity: 0.4;
+  transition: all 0.3s ease 0s;
 }
+/* .featured-image:hover > img {opacity: 1;transition: all 0.3s ease 0s;} */
+
 .featured-image {
+  background: #000 none repeat scroll 0 0;
+  border: medium none #000;
   margin-bottom: 7px;
   position: relative;
+  transition: all 0.3s ease 0s;
 }
 .project-title {
   position: absolute;
@@ -626,7 +635,7 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   border-top: 1px solid #fff;
   color: #fff;
   display: inline-block;
-  font-size: 35px;
+  font-size: 27px;
   margin-bottom: 15px;
   margin-top: 15px;
   padding: 10px 20px;
@@ -637,6 +646,18 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   font-weight: 100;
   text-transform: uppercase;
 }
+#wpas-results-inner > h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px;
+}
+.wpas-tax_projecttype-radio {
+  float: left;
+  width: 30px;
+}
+.wpas-tax_projecttype-radio-container {margin-bottom: 10px}
+.wpas-search_query {margin-bottom: 20px}
 /* Single Projects */
 
 .project-image {float: right;}
@@ -671,6 +692,10 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
 }
 .project-statistics h3 {margin-bottom: 5px;}
 .project-statistics p {margin-bottom: 10px;}
+.links-wrap {
+  float: left;
+}
+
 
 /* slideshow pager styles */
 .cycle-pager {
@@ -682,6 +707,7 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
 }
 .cycle-pager span {
   background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 1px #000 inset;
   display: inline-block;
   font-size: 0;
   height: 10px;
@@ -706,6 +732,11 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   margin-top: 20px;
   text-align: center;
 }
+
+
+
+
+
 /* mobile styles */
 
 @media screen and (max-width: 600px) {
