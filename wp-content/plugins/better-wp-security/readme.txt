@@ -3,7 +3,7 @@ Contributors: ithemes, chrisjean, aaroncampbell, gerroald, mattdanner
 Tags: security, malware, secure, multi-site, network, mu, login, lockdown, htaccess, hack, header, cleanup, ban, restrict, access, protect, protection, disable, images, image, hotlink, admin, username, database, prefix, wp-content, rename, directory, directories, secure, SSL, iThemes, BackupBuddy, Exchange, iThemes Exchange
 Requires at least: 4.1
 Tested up to: 4.4.2
-Stable tag: 5.3.0
+Stable tag: 5.3.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -189,6 +189,29 @@ Free support may be available with the help of the community in the <a href="htt
 
 == Changelog ==
 
+= 5.3.4 =
+* Bug Fix: Fixed issue that could cause a fatal error after changing the content directory.
+* Bug Fix: Updated the link to sign up for security guide download to point to a https address. This is better security and prevents warnings when submitting from a http site in some browsers.
+* Bug Fix: If a cryptographically secure log file name can't be generated, queue up log file writes until we can.
+
+= 5.3.3 =
+* Bug Fix: Fixed temporary whitelisting by preventing a temporarily whitelisted IP from being locked out.
+
+= 5.3.2 =
+* Bug Fix: Updated code that generates the backups and logs directories to ensure that it attempts to create the parent directory if it does not exist yet.
+* Bug Fix: Removed warnings that could be generated if the logs directory could not be created.
+* Bug Fix: Database backup files sent via email no longer have a name without an extension if zipping up the file fails.
+
+= 5.3.1 =
+* Security Fix: Hardened the created backups and logs directories. Thanks to Nicolas Chatelain (SYSDREAM IT Security Services) for notifying us of this issue.
+* Security Fix: More secure backup and log file names. Thanks to Nicolas Chatelain (SYSDREAM IT Security Services) for notifying us of this issue.
+* Bug Fix: The "NGINX Conf File" setting is now properly respected, causing the generated NGINX configuration file to be stored in that location.
+* Enhancement: Generated database backup file names now contain a human-readable timestamp in the format of YYYYMMDD-HHMMSS.
+* Enhancement: Zipped database backup files no longer contain a deeply nested directory structure. Instead, they only contain the sql file.
+* Enhancement: When the "Force Unique Nickname" feature is enabled, the generated display name now uses an improved randomization function.
+* Enhancement: Improved tabbing of rules in generated nginx.conf files.
+* Enhancement: Removed the "See what's new button" as it has fulfilled its purpose.
+
 = 5.3.0 =
 * New Feature: Added support for IPv6 addresses. This includes support for IPv6 in lockouts, ban hosts, and white lists.
 * Bug Fix: Fixed issue that could cause username-based lockouts to fail for long usernames.
@@ -300,7 +323,7 @@ Free support may be available with the help of the community in the <a href="htt
 
 = 4.6.10 =
 * Bug Fix: Fixed regression that prevented adding wildcard IP's in the form of 'XXX.XXX.XXX.*' to Ban Hosts.
-* Bug Fix: When a file scan is run from iThemes Sync, a warning will no longer be added to the site's error log. 
+* Bug Fix: When a file scan is run from iThemes Sync, a warning will no longer be added to the site's error log.
 
 = 4.6.8 =
 * Enhancement: Minor refactoring for performance and scalability.
@@ -1480,6 +1503,9 @@ This release is a complete rewrite from the ground up. Special thanks to Cory Mi
 * First alpha release including simple feature set.
 
 == Upgrade Notice ==
+
+= 5.3.4 =
+Version 5.3.4 contains minor bugfixes and enhancements and is recommended for all users.
 
 = 4.6.8 =
 Version 4.6.8 contains minor bugfixes and enhancements and is recommended for all users.
