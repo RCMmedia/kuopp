@@ -53,7 +53,7 @@ get_header(); ?>
 								if ( get_field('location_google_plus_link')){
 									 	echo ('<a href="'.get_field('location_google_plus_link').'" class="social-icon google"></a>'); 
 								} else {
-										echo('<a href="https://plus.google.com/117426444200055406259/about" class="social-icon google"></a>');
+										echo('<a href="" class="social-icon google"></a>');
 								}
 								?>
 								
@@ -61,7 +61,7 @@ get_header(); ?>
 								if ( get_field('location_yelp_link')){
 									 	echo ('<a href="'.get_field('location_yelp_link').'" class="social-icon yelp"></a>'); 
 								} else {
-										echo('<a href="http://www.yelp.com/biz/rubicon-deli-san-diego" class="social-icon yelp"></a>');
+										echo('<a href="" class="social-icon yelp"></a>');
 								}
 								?>
 						</div><!-- .review-sites -->

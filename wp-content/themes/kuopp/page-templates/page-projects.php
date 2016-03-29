@@ -108,19 +108,11 @@ jQuery(document).ready(function() {
 });
 </script>
 
-
-{
-//Do IP Check and display offline page if needed 
-}  
-<?php
-	if(basename($_SERVER['REQUEST_URI']) == 'projects'){  ?>
-    
-
-
+  
+<?php if(basename($_SERVER['REQUEST_URI']) == 'projects'){  ?>
 	<script>
-				    jQuery('.featured-project-wrap').show();
-			    </script>
-	
+		jQuery('.featured-project-wrap').show();
+	</script>
 <?php } ?>
 
 
