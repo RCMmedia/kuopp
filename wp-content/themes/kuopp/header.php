@@ -112,7 +112,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<!--
 <div id="pre-loader">
   <div class="square black"></div>
   <div class="square green"></div>
@@ -121,7 +120,6 @@
   
   <div class="vic-gb"></div>
 </div>
--->
 <div id="wrapper" class="hfeed">
 	<div class="green-trim"></div>
 	<div class="sidebar">
