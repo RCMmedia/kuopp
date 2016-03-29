@@ -10,14 +10,14 @@ get_header(); ?>
 		<img src="<?php the_field('homepage_main_banner'); ?>">
 	</div><!-- .hero-banner -->
 	<div class="get-quote">
-		<img class="bg" src="<?php bloginfo('template_url') ?>/images/get-quote-bg2.png" alt="get-quote-bg" width="305" height="428" />
+		<img class="bg" src="<?php bloginfo('template_url') ?>/images/blueprint.png" alt="get-quote-bg" width="305" height="428" />
 		<div class="get-quote-inner">
 			<h2><?php the_field('homepage_intro_h2'); ?></h2>
 			<?php the_field('homepage_intro_paragraph'); ?>
 			<a class="portfolio-link" href="<?php bloginfo('url') ?>/projects/">View some of our projects<img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a>
 <!-- 			<a class="portfolio-link" href="">Commercial <img src="<?php bloginfo('template_url') ?>/images/portfolio-arrow.jpg" alt="portfolio-arrow" width="8" height="13" /></a> -->
-			<a class="gold-button" href="">Get a Quote</a>
-			<a class="gold-button" href="">About Us</a>
+			<a class="gold-button" href="<?php bloginfo('url') ?>/quote/">Get a Quote</a>
+			<a class="gold-button" href="<?php bloginfo('url') ?>/about-us">About Us</a>
 		</div>
 	</div><!-- .get-quote -->
 	

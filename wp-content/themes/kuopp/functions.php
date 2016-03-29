@@ -21,9 +21,14 @@ function wp_ajax_search() {
 
     $args['fields'][] = array( 'type' => 'search', 
                                'placeholder' => 'Enter search terms' );
+                               
     $args['fields'][] = array('type' => 'taxonomy',
                               'taxonomy' => 'projecttype',
                               'format' => 'radio');
+                              
+    $args['fields'][] = array( 'type' => 'submit',
+                               'class' => 'button',
+                               'value' => 'Search' );
                               
 
 

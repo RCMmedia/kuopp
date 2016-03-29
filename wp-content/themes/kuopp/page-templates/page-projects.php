@@ -13,7 +13,7 @@ get_header(); ?>
 	<h1 class="page-title"><?php the_title(); ?></h1>
 	
 		
-		<div class="featured-project-wrap">
+		<div class="featured-project-wrap" style="display: none;">
 			
 
 
@@ -89,7 +89,7 @@ get_header(); ?>
 	
 	<div class="bottom-get-quote">
 		<div class="inner">
-			<h3>Want to learn <span style="color:">more?</span></h3>
+			<h3>Want to <span>learn more?</span></h3>
 			<a href="">Get a Quote <img src="<?php bloginfo('template_url') ?>/images/arrow-white.png" alt="arrow-white" width="8" height="12" /></a>
 		</div>
 	</div><!-- .bottom-get-quote -->
@@ -107,4 +107,22 @@ jQuery(document).ready(function() {
     });
 });
 </script>
+
+
+{
+//Do IP Check and display offline page if needed 
+}  
+<?php
+	if(basename($_SERVER['REQUEST_URI']) == 'projects'){  ?>
+    
+
+
+	<script>
+				    jQuery('.featured-project-wrap').show();
+			    </script>
+	
+<?php } ?>
+
+
+
 <?php get_footer(); ?>

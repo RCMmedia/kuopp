@@ -49,8 +49,8 @@ get_header(); ?>
 						<div class="links-wrap">
 							<div class="addthis_sharing_toolbox"></div>
 							<!-- <a class="gold-button" href="">Share This Project</a> -->
-						  <a class="gold-button" href="">Get a Quote</a>
-						  <a class="gold-button" href="">Leave a Review</a>
+						  <a class="gold-button" href="<?php bloginfo('url') ?>/quote">Get a Quote</a>
+						  <a class="gold-button" href="<?php bloginfo('url') ?>/reviews">Leave a Review</a>
 						</div><!-- .links-wrap -->
 					</div><!-- .featured-right -->
 					        

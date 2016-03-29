@@ -112,6 +112,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!--
 <div id="pre-loader">
   <div class="square black"></div>
   <div class="square green"></div>
@@ -120,6 +121,7 @@
   
   <div class="vic-gb"></div>
 </div>
+-->
 <div id="wrapper" class="hfeed">
 	<div class="green-trim"></div>
 	<div class="sidebar">
@@ -147,11 +149,11 @@
 				</ul>
 			</div><!-- .navigation -->
 			<div class="social-icons">
-				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-fb.png" alt="social-icon-fb"></a>
-				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-houzz.png" alt="social-icon-fb"></a>
-				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-dunno.png" alt="social-icon-fb"></a>
-				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-linkedin.png" alt="social-icon-fb"></a>
-				<a href=""><img src="<?php bloginfo('template_url') ?>/images/social-icon-gplus.png" alt="social-icon-fb"></a>
+				<a href="https://www.facebook.com/Kuopdesigns" target="_blank"><img src="<?php bloginfo('template_url') ?>/images/social-icon-fb.png" ></a>
+				<a href="http://www.houzz.com/pro/dkuoppamaki/kuop-designs" target="_blank"><img src="<?php bloginfo('template_url') ?>/images/social-icon-houzz.png" ></a>
+				<a href="" target="_blank"><img src="<?php bloginfo('template_url') ?>/images/social-icon-dunno.png" ></a>
+				<a href="https://www.linkedin.com/in/david-kuoppamaki-49397938" target="_blank"><img src="<?php bloginfo('template_url') ?>/images/social-icon-linkedin.png" ></a>
+				<a href="" target="_blank"><img src="<?php bloginfo('template_url') ?>/images/social-icon-gplus.png" ></a>
 			</div><!-- .social-icons -->
 		</div><!-- .main-navigation-wrap -->
 		

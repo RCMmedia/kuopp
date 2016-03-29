@@ -18,24 +18,26 @@ get_header(); ?>
 			</div><!-- .quote -->
 		</div><!-- .banner-wrap -->
 			
-		<div class="content clearfix">
-			<div class="left">
+		<div class="aboutus_content clearfix">
+			
 				<?php the_field('aboutus_content_left'); ?>
-			</div><!-- .left -->
+
+<!--
 			<div class="right">
 				<?php the_field('aboutus_content_right'); ?>
-			</div><!-- .right -->
+			</div>
+--><!-- .right -->
 		</div><!-- .content -->
 			
 		<div class="partners clearfix">
 			<h3>Meet the Partners</h3>
 			<div class="team-member">
-				<img src="http://placehold.it/120x120">
-				<span>Team member<br>position</span>
+				<img src="<?php bloginfo('template_url') ?>/images/dave.jpg">
+				<span>Dave Kuoppamaki<br>position</span>
 			</div><!-- .team-member -->
 			<div class="team-member">
-				<img src="http://placehold.it/120x120">
-				<span>Team member<br>position</span>
+				<img src="<?php bloginfo('template_url') ?>/images/dad.jpg">
+				<span>Papa Kuoppamaki<br>position</span>
 			</div><!-- .team-member -->
 		</div><!-- .partners -->
 		
@@ -43,7 +45,7 @@ get_header(); ?>
 	
 	<div class="bottom-get-quote">
 		<div class="inner">
-			<h3>Want to learn <span style="color:">more?</span></h3>
+			<h3>Want to <span>learn more?</span></h3>
 			<a href="">Get a Quote <img src="<?php bloginfo('template_url') ?>/images/arrow-white.png" alt="arrow-white" width="8" height="12" /></a>
 		</div>
 	</div><!-- .bottom-get-quote -->

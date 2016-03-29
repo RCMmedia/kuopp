@@ -23,7 +23,7 @@ get_header(); ?>
 				<span class="emailaddress"><a href="mailto:davidk@kuopdesigns.com">davidk@kuopdesigns.com</a></span>
 			</div><!-- .location-info -->
 			<div class="leave-review">
-				<a class="gold-button" href="">Leave a Review</a>
+				<a class="gold-button" href="<?php bloginfo('url') ?>/reviews">Leave a Review</a>
 			</div>
 		</div><!-- .location-box -->
 		
@@ -40,7 +40,7 @@ get_header(); ?>
 				<span class="emailaddress"><a href="mailto:davidk@kuopdesigns.com">davidk@kuopdesigns.com</a></span>
 			</div><!-- .location-info -->
 			<div class="leave-review">
-				<a class="gold-button" href="">Leave a Review</a>
+				<a class="gold-button" href="<?php bloginfo('url') ?>/reviews">Leave a Review</a>
 			</div>
 		</div><!-- .location-box -->
 		
@@ -49,7 +49,7 @@ get_header(); ?>
 	
 	<div class="bottom-get-quote">
 		<div class="inner">
-			<h3>Want to learn <span style="color:">more?</span></h3>
+			<h3>Want to <span>learn more?</span></h3>
 			<a href="">Get a Quote <img src="<?php bloginfo('template_url') ?>/images/arrow-white.png" alt="arrow-white" width="8" height="12" /></a>
 		</div>
 	</div><!-- .bottom-get-quote -->

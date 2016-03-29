@@ -58,7 +58,7 @@ get_header(); ?>
 	
 	<div class="bottom-get-quote">
 		<div class="inner">
-			<h3>Want to learn <span style="color:">more?</span></h3>
+			<h3>Want to <span>learn more?</span></h3>
 			<a href="">Get a Quote <img src="<?php bloginfo('template_url') ?>/images/arrow-white.png" alt="arrow-white" width="8" height="12" /></a>
 		</div>
 	</div><!-- .bottom-get-quote -->
