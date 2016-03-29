@@ -56,6 +56,10 @@ p {
 .sidebar.loaded{background:#2c3d4c none repeat scroll 0 0;color:#fff;float:left;height:100vh;width:215px;padding:20px;position:fixed;transition: all 0.3s ease 0s;}
 
 .logo{margin-bottom:30px}
+.logo img {
+  height: auto;
+  width: 100%;
+}
 .navigation{margin-bottom:30px}
 .navigation li {
   font-size: 19px;
@@ -802,7 +806,10 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
 }
 .sidebar.mobile-loaded {height: 100vh;transition: all 0.3s ease 0s;}
 .logo {max-width: 115px;}
-.logo img {width: 100%;height: auto;}
+.logo img {
+  height: auto;
+  width: 100%;
+}
 .main-content-wrap {
   margin-left: 0;
   overflow-x: hidden;
