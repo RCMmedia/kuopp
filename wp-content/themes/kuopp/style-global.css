@@ -490,9 +490,10 @@ body{box-sizing:border-box;transform:translate(0,0);max-width:100%;min-height:10
 }
 
 ul.our-process-accordion.loaded {
+  float: left;
   list-style: outside none none;
-  margin: 0 0 30px;
-  max-width: 510px;
+  margin: 0 4% 30px 0;
+  max-width: 50%;
   padding: 0;
   perspective: 900px;
 }
@@ -527,7 +528,11 @@ ul.our-process-accordion.loaded h4 {
   margin-bottom: 5px;
 }
 
-.quote-form-wrap {max-width: 510px;}
+.quote-form-wrap {
+  float: left;
+  width: 46%;
+}
+.quote-form-wrap h3 {margin-bottom: 15px}
 
 @keyframes flipdown {
 0%{opacity:0;transform-origin:top center;transform:rotateX(-90deg)}

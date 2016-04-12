@@ -19,7 +19,7 @@ get_header(); ?>
 		<h3>Our Process</h3>
 		<ul class="our-process-accordion">
 		  <li>
-		    <input type="checkbox" checked>
+		    <input type="checkbox" >
 		    <h4>Phase 1: Schematic Design</h2>
 		    <p>During this phase of the architectural design process, we will take the information we’ve gathered from you and through our field surveys to create two to three design options for your consideration. We will generally present these options in the form of sketches, so you can visualize the different routes your project could take.</p>
 		    <p>We will also attach a rough cost estimate to each option to aid you in selecting a design that meets both your aesthetic preferences and budget requirements. You will also have the opportunity to request any modifications you’d like us to make to your preferred design. Once you have selected a design option that best suits your needs, we will begin the process of refining the design during the Design Development phase.</p>
@@ -56,7 +56,8 @@ get_header(); ?>
 		</ul><!-- .our-process-accordion -->
 		
 		<div class="quote-form-wrap">
-			<h3>Apply Today</h3>
+			<h3>Get a Quote</h3>
+			<p>Complete the form below and we will contact you as soon as possible.</p>
 			<?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
 		</div>
 		
