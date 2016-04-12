@@ -37,7 +37,7 @@ get_header(); ?>
 			</div><!-- .team-member -->
 			<div class="team-member">
 				<img src="<?php bloginfo('template_url') ?>/images/dad.jpg">
-				<span>Papa Kuoppamaki<br>position</span>
+				<span>Juha Kuoppamaki<br>position</span>
 			</div><!-- .team-member -->
 		</div><!-- .partners -->
 		
