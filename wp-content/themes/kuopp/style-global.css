@@ -48,6 +48,7 @@ body {
 p {
   line-height: 1.2em;
   margin-bottom: 10px;
+  font-size: 17px;
 }
 #wrapper{display:flex;opacity: 0;}
 #wrapper.loaded {opacity: 1;transition: all 0.3s ease 0s;}
