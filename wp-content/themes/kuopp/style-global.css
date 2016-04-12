@@ -643,6 +643,10 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   position: relative;
   transition: all 0.3s ease 0s;
 }
+
+.project-box:hover .featured-image {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+}
 .project-title {
   height: 85px;
   position: absolute;
