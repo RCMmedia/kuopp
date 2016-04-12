@@ -33,11 +33,11 @@ get_header(); ?>
 			<h3>Meet the Partners</h3>
 			<div class="team-member">
 				<img src="<?php bloginfo('template_url') ?>/images/dave.jpg">
-				<span>Dave Kuoppamaki<br>position</span>
+				<span>Dave Kuoppamaki<br>Owner</span>
 			</div><!-- .team-member -->
 			<div class="team-member">
 				<img src="<?php bloginfo('template_url') ?>/images/dad.jpg">
-				<span>Juha Kuoppamaki<br>position</span>
+				<span>Juha Kuoppamaki<br>Owner</span>
 			</div><!-- .team-member -->
 		</div><!-- .partners -->
 		
