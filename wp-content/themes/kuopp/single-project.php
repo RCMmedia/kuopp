@@ -66,7 +66,7 @@ get_header(); ?>
 			<?php else : ?>
 			<!–Output if toggled ‘no’–>
 			<?php if (have_posts()) :  while (have_posts()) :  the_post(); ?>
-				<div class="project-image">
+				<div class="project-image" style="float: left">
 				<?php 
 					$image = get_field('featured_image');
 					$size = 'large'; // (thumbnail, medium, large, full or custom size)
@@ -81,6 +81,7 @@ get_header(); ?>
 					<!-- <a class="gold-button" href="">Share This Project</a> -->
 				  <a class="gold-button" href="">Get a Quote</a>
 				  <a class="gold-button" href="">Leave a Review</a>
+				  <a class="gold-button" href="<?php echo wp_get_attachment_image_url( $image, 'full' ); ?>" target="_blank">View Larger Size</a>
 				</div>
 			<?php endwhile;?>
 			<?php endif; //end regular loop ?>
