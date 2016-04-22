@@ -2,7 +2,7 @@
 Contributors: metaphorcreations
 Tags: posts, post, duplicate, duplication
 Requires at least: 4.0
-Tested up to: 4.4.2
+Tested up to: 4.5
 Stable tag: /trunk/
 License: GPL2
 
@@ -40,6 +40,10 @@ Check out the 'Installation' tab.
 2. View of the settings page
 
 == Changelog ==
+
+= 2.17 =
+* XSS vulnerability fix
+* Language file updates
 
 = 2.16 =
 * Modified how post meta is saved to database
@@ -108,4 +112,4 @@ Must upgrade in order for the plugin to work. The file paths where initially wro
 
 == Upgrade Notice ==
 
-Multiple updates
+XSS vulnerability fix
