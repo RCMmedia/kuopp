@@ -9,6 +9,7 @@ results appear when using AJAX.
 
 <?php if ( have_posts() ): ?>
 <h3>Search Results</h3>
+<div><a class="clear-search" >Clear Search</a></div>
    <?php while ( have_posts() ): the_post(); ?>
 
        <div class="project-box">

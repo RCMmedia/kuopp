@@ -12,7 +12,7 @@ function wp_ajax_search() {
     $args['wp_query'] = array('post_type' => 'project', 'posts_per_page' => 6);
 
 
-    $args['form'] = array( 'auto_submit' => true );
+    $args['form'] = array( 'auto_submit' => false );
 
     $args['form']['ajax'] = array( 'enabled' => true,
                                    'show_default_results' => false,
@@ -24,12 +24,33 @@ function wp_ajax_search() {
                                
     $args['fields'][] = array('type' => 'taxonomy',
                               'taxonomy' => 'projecttype',
-                              'format' => 'radio');
+                              'format' => 'select'
+                              );
+                              
+    $args['fields'][] = array(  'type' => 'meta_key',
+															'meta_key' => 'project_single_sqft',
+															'placeholder' => 'SQFT',
+															'format' => 'text',
+															'compare' => '>=',
+															'data_type' => 'NUMERIC');
+															
+		$args['fields'][] = array(  'type' => 'meta_key',
+															'meta_key' => 'project_single_bedrooms',
+															'placeholder' => '# of Bedrooms',
+															'format' => 'text',
+															'compare' => '>=',
+															'data_type' => 'NUMERIC');
+															
+		$args['fields'][] = array(  'type' => 'meta_key',
+															'meta_key' => 'project_single_bathrooms',
+															'placeholder' => '# of  Bathrooms',
+															'format' => 'text',
+															'compare' => '>=',
+															'data_type' => 'NUMERIC');
                               
     $args['fields'][] = array( 'type' => 'submit',
                                'class' => 'button',
                                'value' => 'Search' );
-                              
 
 
     register_wpas_form('my-form', $args);

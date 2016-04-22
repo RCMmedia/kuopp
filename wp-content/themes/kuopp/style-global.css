@@ -7,8 +7,9 @@
 ::-moz-placeholder{opacity:1}
 :-ms-input-placeholder{opacity:1}
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;margin:0;padding:0;vertical-align:baseline}
-body{line-height:1;}
-body.loaded {opacity: 1;transition: all 0.3s ease 0s;}
+body{line-height:1;-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;}
+body.loaded {opacity: 1;transition: all 0.3s ease 0s;  }
 h1,h2,h3,h4,h5,h6{clear:both;font-weight:400}
 ol,ul{list-style:none}
 blockquote{quotes:none}
@@ -344,6 +345,21 @@ input[type=checkbox]{float:left;width:15px;height:15px}
 .gfield_label {
   display: none;
 }
+.wpas-select {
+  padding: 0;
+}
+
+.wpas-text {
+  margin-top: 10px;
+}
+.clear-search {
+  background: #4796bf none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 12px;
+  padding: 10px;
+}
 /* review module */
 .review-module {
   background: rgba(0, 0, 0, 0) url("images/leave-a-review-bg.jpg") no-repeat scroll 0 0 / cover ;
@@ -392,14 +408,16 @@ input[type=checkbox]{float:left;width:15px;height:15px}
   padding: 30px 40px;
   text-align: center;
 }
+
 /* Review form */
 .gform_footer {
   text-align: center;
 }
-input[type="submit"]{
+input[type="submit"] {
   background: #4796bf none repeat scroll 0 0;
   border: medium none;
   color: #fff;
+  cursor: pointer;
   display: inline-block;
   font-size: 21px;
   margin-top: 17px;
@@ -607,6 +625,7 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
 .project-box p {
   font-size: 15px;
   line-height: 1.3em;
+  display: none;
 }
 .project-box:nth-child(2n+1) {padding-right: 0;}
 .project-box:nth-child(3n+3) {padding-left: 0;}
@@ -685,8 +704,9 @@ body.page-template-page-projects .main-navigation-wrap, body.single-project .mai
   width: 30px;
 }
 .wpas-tax_projecttype-radio-container {margin-bottom: 10px}
-.wpas-search_query {margin-bottom: 20px}
-
+.wpas-search_query {
+  margin-bottom: 10px;
+}
 .pagenav a {
   border: 3px solid #b4b212;
   color: #b4b212;

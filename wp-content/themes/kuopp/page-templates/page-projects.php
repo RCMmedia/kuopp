@@ -18,7 +18,7 @@ get_header(); ?>
 
 
 
-					<?php $featured_projects_query = new WP_Query( array( 'post_type' => 'project', 'order' => 'DSC','posts_per_page' => 2  ) ); while($featured_projects_query->have_posts()) : $featured_projects_query->the_post(); ?>
+					<?php $featured_projects_query = new WP_Query( array( 'post_type' => 'project', 'order' => 'DSC','posts_per_page' => 2,'meta_key' => 'featured_at_top', 'meta_value' => 'yes'  ) ); while($featured_projects_query->have_posts()) : $featured_projects_query->the_post(); ?>
 
 					<div class="project-box">
 				<div class="featured-image">
@@ -51,7 +51,7 @@ get_header(); ?>
 			$temp = $wp_query;
 			$wp_query = null;
 			$wp_query = new WP_Query();
-			$wp_query -> query('post_type=project&showposts=6'.'&paged='.$paged);
+			$wp_query -> query('post_type=project&showposts=6&meta_key=featured_at_top&meta_valu=no'.'&paged='.$paged);
 			
 			while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 			
@@ -105,6 +105,22 @@ jQuery(document).ready(function() {
                    .siblings('.expand_content').removeClass('open').slideUp();
         }
     });
+    jQuery(".wpas-submit").on('click', function(){
+	    jQuery(".featured-project-wrap,.reg-projects-wrap").fadeOut();
+	    jQuery("#wpas-results").fadeIn();
+    })
+    jQuery(function() {
+    if (location.hash === "#results") {
+        jQuery(".featured-project-wrap,.reg-projects-wrap").fadeOut();
+        jQuery("#wpas-results").fadeIn();
+    	}
+		});
+		jQuery('body').on('click','.clear-search',function(){
+	    jQuery("#wpas-results").fadeOut(function(){
+		    jQuery(".featured-project-wrap,.reg-projects-wrap").fadeIn();
+	    });
+	    
+    })
 });
 </script>
 
